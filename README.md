@@ -33,6 +33,9 @@ In order to run the Dev server(Development server) do use the command:
 
 The app folder inside the src folder is where all oof the components and services regarding our application goes. The entry point of our application is the "main.ts" present inside app folder.
 
+The json server we be using runs on port 1234. In order to run it use the command below:
+#### npm run server        the json file opens on localhost:1234
+
 
 To create components use the command as below:
 #### ng generate component component_name
