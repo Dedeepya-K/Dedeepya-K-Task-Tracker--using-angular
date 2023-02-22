@@ -12,3 +12,10 @@ We will have six components inside our appplication which are as follows:
 4. Task component - Each individual task is it's own component
 5. Footer
 6. Router - To move through the about page and home page.
+
+
+### Angular CLI 
+Angular CLI(Command Line Interface) is a standard tooling for angular apps. It provides direct commands to generate componeents, services etc.,.
+The command to globally install angular cli is as follows:
+
+#### npm install -g @angular/cli
