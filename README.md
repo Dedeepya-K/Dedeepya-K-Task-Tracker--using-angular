@@ -24,3 +24,10 @@ Once the CLI is ready now we can start building our angular application. Use the
 
 #### ng new AngularCrashCourse
 
+Now, change directory to the working directory and follow up.
+
+In order to run the Dev server(Development server) do use the command:
+
+#### ng serve
+
+the app opens on localhost:4200
