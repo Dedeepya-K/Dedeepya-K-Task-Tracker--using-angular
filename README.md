@@ -28,9 +28,15 @@ Now, change directory to the working directory and follow up.
 
 In order to run the Dev server(Development server) do use the command:
 
-#### ng serve
-
-the app opens on localhost:4200
+#### ng serve          the app opens on localhost:4200
 
 
 The app folder inside the src folder is where all oof the components and services regarding our application goes. The entry point of our application is the "main.ts" present inside app folder.
+
+
+To create components use the command as below:
+#### ng generate component component_name
+
+We will create a folder called componenets inside app folder where all the our created components can be stored.
+
+ng generate component components/header
