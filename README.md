@@ -19,3 +19,8 @@ Angular CLI(Command Line Interface) is a standard tooling for angular apps. It p
 The command to globally install angular cli is as follows:
 
 #### npm install -g @angular/cli
+
+Once the CLI is ready now we can start building our angular application. Use the following command to create a new app by name AngularCrashCourse.
+
+#### ng new AngularCrashCourse
+
