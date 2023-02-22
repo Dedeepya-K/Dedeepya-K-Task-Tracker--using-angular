@@ -39,4 +39,10 @@ To create components use the command as below:
 
 We will create a folder called componenets inside app folder where all the our created components can be stored.
 
-ng generate component components/header
+1. ng generate component components/header
+
+Once the component is created do the following:
+1. embed the component inside the app.component.html
+2. add relevant title to the header.component.ts
+3. add the html structure inside the header.html file
+4. mix up a bit of css inside the header.css file.
