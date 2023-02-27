@@ -21,6 +21,11 @@ export class HeaderComponent implements OnInit{
   }
   ngOnInit(): void { }
 
+  ngOnDestroy() {
+    // Unsubscribe to ensure no memory leaks
+    this.subscription.unsubscribe();
+  }
+
   toggleAddTask(){
     //console.log('toggle');
     this.uiService.toggleAddTask();
